@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "wilcityapp",
+    "description": "Listing Directory",
+    "slug": "wilcity",
+    "privacy": "public",
+    "sdkVersion": "26.0.0",
+    "platforms": ["android"],
+    "version": "1.7",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#252c41"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "9",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationAlwaysUsageDescription": "This app uses the location to show listings nearby you."
+      },
+      "bundleIdentifier": "com.wiloke.wilcity"
+    },
+    "android": {
+      "package": "com.wiloke.Wilcity",
+      "versionCode": 9
+    }
+  }
+}
